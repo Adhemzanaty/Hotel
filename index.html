@@ -1,0 +1,926 @@
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <title>Travelix</title>
+    <link rel="icon" href="images/logo_2.png">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Courgette|Open+Sans:400,800&display=swap">
+
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/animate.css">
+    <link rel="stylesheet" href="css/style.css">
+
+</head>
+
+<body>
+
+
+
+    <!-- loding screen -->
+
+
+    <div class="loding">
+        <div class="loader">Loading...</div>
+
+    </div>
+
+
+
+
+
+
+
+
+
+
+    <!------------------------------- home ----------------------------------------->
+
+
+
+    <header id="home">
+
+        <!-- navbar -->
+
+        <nav class="navbar navbar-expand-lg navbar-dark nav-bg fixed-top">
+            <div class="container-fluid my-width ">
+                <img class="navbar-brand text-white" src="images/logo.png"></img>
+                <button class="navbar-toggler" type="button" data-toggle="collapse"
+                    data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav ml-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link" href="#home">HOME</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#about">ABOUT</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#offers">OFFERS</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#news">NEWS</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#contact">CONTACT</a>
+                        </li>
+
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                                data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                LOGIN
+                            </a>
+                            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                <a class="dropdown-item" href="login.html">USER</a>
+                                <a class="dropdown-item" href="adminLogin.html">ADMIN</a>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+
+
+
+        <!-- sec nav -->
+
+
+        <div class="my-nav ">
+            <div class="black-div pt-5">
+                <ul>
+                    <li><a class="red-hover item" href="index.html">Home</a> </li>
+                    <li><a class="red-hover item" href="rooms.html">Rooms</a></li>
+                    <li><a class="red-hover item" href="room.html">My Room</a></li>
+                    <li><a class="red-hover item" href="feedBack.html">Feed Back</a></li>
+                    <li><a class="red-hover item" href="">Logout</a></li>
+                </ul>
+                <div class="black-div-part2 ">
+                    <div class="row social ">
+                        <i class="social-hov fab fa-twitter"></i>
+                        <i class="social-hov fab fa-facebook-f"></i>
+
+                        <i class="social-hov fab fa-instagram"></i>
+                        <i class="social-hov fab fa-pinterest"></i>
+                    </div>
+                    <p>Copyright 2021 <i class="far fa-copyright"></i> All Rights Reserved.</p>
+                </div>
+
+            </div>
+            <div class="white-div">
+                <div class="my-icon2 "><i class="fas fa-bars"></i></div>
+
+
+            </div>
+        </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        <div class="style-header">
+            <div class="container  d-flex justify-content-center align-items-center">
+                <div class="text-center">
+                    <h1 class="wow bounceInUp" data-wow-duration="2s">DISCOVER</h1>
+                    <h4>Luxury hotels</h4>
+                    <button type="button" class="my-btn">EXPLORE NOW ...</button>
+                </div>
+            </div>
+        </div>
+
+
+
+
+
+    </header>
+
+
+
+    <!------------------------------- About ----------------------------------------->
+
+
+    <section id="about" class="wow bounceInUp" data-wow-duration="2s" data-wow-offset="10">
+        <div class="about-style">
+
+            <div class="container-fluid width-75">
+
+                <div class="row">
+
+
+
+                    <div class="col-xl-4 col-lg-4 col-md-12 p-1">
+                        <div>
+                            <label class="my-label">DISTINATION</label>
+                            <input type="text" class="form-control" name="distination" placeholder="italy">
+                        </div>
+                    </div>
+
+
+
+                    <div class="col-xl-2 col-lg-2 col-md-12 p-1">
+                        <div>
+                            <label class="my-label">CHECK IN</label>
+                            <input type="date" class="form-control" name="in" placeholder="date">
+                        </div>
+                    </div>
+
+
+
+                    <div class="col-xl-2 col-lg-2 col-md-12 p-1">
+                        <div>
+                            <label class="my-label">CHECK OUT</label>
+                            <input type="date" class="form-control" name="OUT" placeholder="date">
+                        </div>
+                    </div>
+
+
+
+                    <div class="col-xl-1 col-lg-1 col-md-12 p-1">
+                        <div>
+                            <label class="my-label">ADULTS</label>
+                            <input type="number" class="form-control" name="adults" placeholder="0">
+                        </div>
+                    </div>
+
+
+
+                    <div class="col-xl-1 col-lg-1 col-md-12 p-1">
+                        <div>
+                            <label class="my-label">CHILDRENS</label>
+                            <input type="number" class="form-control" name="childrens" placeholder="0">
+                        </div>
+                    </div>
+
+
+
+                    <div class="col-xl-2 col-lg-2 col-md-12 p-1 d-flex justify-content-center align-items-end mt-2">
+                        <div>
+                            <button type="button" class="my-sec-btn">SEARCH ...</button>
+                        </div>
+                    </div>
+
+
+
+
+
+
+
+
+                </div>
+
+            </div>
+
+        </div>
+    </section>
+
+
+
+    <!------------------------------- explore ----------------------------------------->
+
+
+
+    <section class="py-5 wow bounceInUp" data-wow-duration="2s" data-wow-offset="15">
+
+        <div class="container-fluid width-75">
+
+            <div class="row">
+
+                <div class="col-12 d-flex justify-content-center align-items-center p-5">
+                    <div class="text-center explore">
+                        <h2>EXPLORE</h2>
+                        <p>Our beautiful hotels</p>
+                    </div>
+                </div>
+
+
+
+                <div
+                    class="col-xl-4 col-lg-4 col-md-12 col-sm-12 d-flex justify-content-center align-items-center mb-4 overflow-hidden">
+                    <div class=" text-center small-div ">
+                        <img src="images/hotel_astro_resort.jpg" alt="hotel_astro_resort">
+                        <div class="bg-purple d-flex justify-content-center align-items-center">
+                            <div>
+                                <h4>Astro Hotel</h4>
+                                <p>From $200/Night</p>
+                                <div class="stars"><i class="fas fa-star"></i><i class="fas fa-star"></i><i
+                                        class="fas fa-star"></i><i class="fas fa-star"></i><i
+                                        class="fas fa-star-half"></i></div>
+                                <button type="button" class="my-btn m-2">BOOK NOW ...</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+
+
+
+                <div
+                    class="col-xl-4 col-lg-4 col-md-12 col-sm-12 d-flex justify-content-center align-items-center mb-4">
+                    <div class=" text-center small-div ">
+                        <img src="images/hotel_the_enchanted_garden.jpg" alt="hotel_the_enchanted_garden">
+                        <div class="bg-purple d-flex justify-content-center align-items-center">
+                            <div>
+                                <h4>Enchanted Garden</h4>
+                                <p>From $300/Night</p>
+                                <div class="stars"><i class="fas fa-star"></i><i class="fas fa-star"></i><i
+                                        class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i>
+                                </div>
+                                <button type="button" class="my-btn m-2">BOOK NOW ...</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+
+
+                <div
+                    class="col-xl-4 col-lg-4 col-md-12 col-sm-12 d-flex justify-content-center align-items-center mb-4">
+                    <div class=" text-center small-div ">
+                        <img src="images/hotel_the_paradise.jpg" alt="hotel_the_paradise">
+                        <div class="bg-purple d-flex justify-content-center align-items-center">
+                            <div>
+                                <h4>The Paradise</h4>
+                                <p>From $350/Night</p>
+                                <div class="stars"><i class="fas fa-star"></i><i class="fas fa-star"></i><i
+                                        class="fas fa-star"></i><i class="fas fa-star"></i><i
+                                        class="fas fa-star-half"></i></div>
+                                <button type="button" class="my-btn m-2">BOOK NOW ...</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+
+
+
+
+
+
+
+
+
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!------------------------------- pradise ----------------------------------------->
+
+
+    <section id="offers" class="pradise wow slideInLeft" data-wow-duration="2s" data-wow-offset="20">
+        <div class="pradise-style d-flex justify-content-center align-items-center">
+            <div
+                class="my-w-50 h-75 bg-white text-center px-2 overflow-hidden position-relative d-flex justify-content-center align-items-center">
+                <div>
+                    <div class="sale">40% OFF</div>
+                    <h4>The Paradise</h4>
+                    <div class="stars"><i class="fas fa-star"></i><i class="fas fa-star"></i><i
+                            class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star-half"></i></div>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime ad dolore sequi inventore in
+                        nesciunt
+                        odio unde, vitae porro non eaque assumenda </p>
+
+                    <button type="button" class="my-btn m-2">REDEEM OFFER ...</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+    <!------------------------------- news ----------------------------------------->
+
+
+
+
+
+
+    <section id="news" class="py-5 wow slideInLeft" data-wow-duration="2s" data-wow-offset="40">
+
+        <div class="container-fluid width-75">
+
+            <div class="row">
+
+                <div class="col-12 d-flex justify-content-center align-items-center p-5">
+                    <div class="text-center explore">
+                        <h2>LUXURIOUS</h2>
+                        <p>Affordable rooms</p>
+                    </div>
+                </div>
+
+
+
+
+                <div class="col-xl-6 col-lg-6 col-md-12 mb-5">
+                    <div class="row">
+
+
+                        <div class="col-xl-6 col-lg-6 col-md-12 mb-2">
+                            <div class="sec-small-img-div position-relative overflow-hidden">
+                                <div class="bg-purple"></div>
+                                <img src="images/room_1.jpg" alt="room_1">
+                                <div class="hotel-name">Astro Hotel</div>
+                            </div>
+                        </div>
+
+
+
+
+
+
+                        <div class="col-xl-6 col-lg-6 col-md-12 mb-5">
+                            <div class="sec-small-div ">
+                                <p><span class="gold-type">$200 </span> Per night</p>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae neque itaque sed
+                                    eius vero voluptates obcaecati commodi sunt eligendi tenetur.</p>
+                                <a href="userInfo.html">BOOK NOW <i class="fas fa-long-arrow-alt-right"></i></a>
+                            </div>
+                        </div>
+
+
+
+
+
+
+
+
+
+                    </div>
+                </div>
+
+
+
+                <div class="col-xl-6 col-lg-6 col-md-12 mb-5">
+                    <div class="row">
+
+
+                        <div class="col-xl-6 col-lg-6 col-md-12 mb-2">
+                            <div class="sec-small-img-div position-relative overflow-hidden">
+                                <div class="bg-purple"></div>
+                                <img src="images/room_2.jpg" alt="room_1">
+                                <div class="hotel-name">Astro Hotel</div>
+                            </div>
+                        </div>
+
+
+
+
+
+
+                        <div class="col-xl-6 col-lg-6 col-md-12 mb-5">
+                            <div class="sec-small-div ">
+                                <p><span class="gold-type">$200 </span> Per night</p>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae neque itaque sed
+                                    eius vero voluptates obcaecati commodi sunt eligendi tenetur.</p>
+                                <a href="userInfo.html">BOOK NOW <i class="fas fa-long-arrow-alt-right"></i></a>
+                            </div>
+                        </div>
+
+
+
+
+
+
+
+
+
+                    </div>
+                </div>
+
+
+
+                <div class="col-xl-6 col-lg-6 col-md-12 mb-5">
+                    <div class="row">
+
+
+                        <div class="col-xl-6 col-lg-6 col-md-12 mb-2">
+                            <div class="sec-small-img-div position-relative overflow-hidden">
+                                <div class="bg-purple"></div>
+                                <img src="images/room_3.jpg" alt="room_1">
+                                <div class="hotel-name">Astro Hotel</div>
+                            </div>
+                        </div>
+
+
+
+
+
+
+                        <div class="col-xl-6 col-lg-6 col-md-12 mb-5">
+                            <div class="sec-small-div ">
+                                <p><span class="gold-type">$200 </span> Per night</p>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae neque itaque sed
+                                    eius vero voluptates obcaecati commodi sunt eligendi tenetur.</p>
+                                <a href="userInfo.html">BOOK NOW <i class="fas fa-long-arrow-alt-right"></i></a>
+                            </div>
+                        </div>
+
+
+
+
+
+
+
+
+
+                    </div>
+                </div>
+
+
+
+                <div class="col-xl-6 col-lg-6 col-md-12 mb-5">
+                    <div class="row">
+
+
+                        <div class="col-xl-6 col-lg-6 col-md-12 mb-2">
+                            <div class="sec-small-img-div position-relative overflow-hidden">
+                                <div class="bg-purple"></div>
+                                <img src="images/room_4.jpg" alt="room_1">
+                                <div class="hotel-name">Astro Hotel</div>
+                            </div>
+                        </div>
+
+
+
+
+
+
+                        <div class="col-xl-6 col-lg-6 col-md-12 mb-5">
+                            <div class="sec-small-div ">
+                                <p><span class="gold-type">$200 </span> Per night</p>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae neque itaque sed
+                                    eius vero voluptates obcaecati commodi sunt eligendi tenetur.</p>
+                                <a href="userInfo.html">BOOK NOW <i class="fas fa-long-arrow-alt-right"></i></a>
+                            </div>
+                        </div>
+
+
+
+
+
+
+
+
+
+                    </div>
+                </div>
+
+
+
+                <div class="col-xl-6 col-lg-6 col-md-12 mb-5">
+                    <div class="row">
+
+
+                        <div class="col-xl-6 col-lg-6 col-md-12 mb-2">
+                            <div class="sec-small-img-div position-relative overflow-hidden">
+                                <div class="bg-purple"></div>
+                                <img src="images/room_5.jpg" alt="room_1">
+                                <div class="hotel-name">Enchanted Garden</div>
+                            </div>
+                        </div>
+
+
+
+
+
+
+                        <div class="col-xl-6 col-lg-6 col-md-12 mb-5">
+                            <div class="sec-small-div ">
+                                <p><span class="gold-type">$300 </span> Per night</p>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae neque itaque sed
+                                    eius vero voluptates obcaecati commodi sunt eligendi tenetur.</p>
+                                <a href="userInfo.html">BOOK NOW <i class="fas fa-long-arrow-alt-right"></i></a>
+                            </div>
+                        </div>
+
+
+
+
+
+
+
+
+
+                    </div>
+                </div>
+
+
+
+                <div class="col-xl-6 col-lg-6 col-md-12 mb-5">
+                    <div class="row">
+
+
+                        <div class="col-xl-6 col-lg-6 col-md-12 mb-2">
+                            <div class="sec-small-img-div position-relative overflow-hidden">
+                                <div class="bg-purple"></div>
+                                <img src="images/room_6.jpg" alt="room_1">
+                                <div class="hotel-name">Enchanted Garden</div>
+                            </div>
+                        </div>
+
+
+
+
+
+
+                        <div class="col-xl-6 col-lg-6 col-md-12 mb-5">
+                            <div class="sec-small-div ">
+                                <p><span class="gold-type">$300 </span> Per night</p>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae neque itaque sed
+                                    eius vero voluptates obcaecati commodi sunt eligendi tenetur.</p>
+                                <a href="userInfo.html">BOOK NOW <i class="fas fa-long-arrow-alt-right"></i></a>
+                            </div>
+                        </div>
+
+
+
+
+
+
+
+
+
+                    </div>
+                </div>
+
+
+
+                <div class="col-xl-6 col-lg-6 col-md-12 mb-5">
+                    <div class="row">
+
+
+                        <div class="col-xl-6 col-lg-6 col-md-12 mb-2">
+                            <div class="sec-small-img-div position-relative overflow-hidden">
+                                <div class="bg-purple"></div>
+                                <img src="images/room_7.jpg" alt="room_1">
+                                <div class="hotel-name">Enchanted Garden</div>
+                            </div>
+                        </div>
+
+
+
+
+
+
+                        <div class="col-xl-6 col-lg-6 col-md-12 mb-5">
+                            <div class="sec-small-div ">
+                                <p><span class="gold-type">$300 </span> Per night</p>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae neque itaque sed
+                                    eius vero voluptates obcaecati commodi sunt eligendi tenetur.</p>
+                                <a href="userInfo.html">BOOK NOW <i class="fas fa-long-arrow-alt-right"></i></a>
+                            </div>
+                        </div>
+
+
+
+
+
+
+
+
+
+                    </div>
+                </div>
+
+
+
+                <div class="col-xl-6 col-lg-6 col-md-12 mb-5">
+                    <div class="row">
+
+
+                        <div class="col-xl-6 col-lg-6 col-md-12 mb-2">
+                            <div class="sec-small-img-div position-relative overflow-hidden">
+                                <div class="bg-purple"></div>
+                                <img src="images/room_8.jpg" alt="room_1">
+                                <div class="hotel-name">The Paradise</div>
+                            </div>
+                        </div>
+
+
+
+
+
+
+                        <div class="col-xl-6 col-lg-6 col-md-12 mb-5">
+                            <div class="sec-small-div ">
+                                <p><span class="gold-type">$350 </span> Per night</p>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae neque itaque sed
+                                    eius vero voluptates obcaecati commodi sunt eligendi tenetur.</p>
+                                <a href="userInfo.html">BOOK NOW <i class="fas fa-long-arrow-alt-right"></i></a>
+                            </div>
+                        </div>
+
+
+
+
+
+
+
+
+
+                    </div>
+                </div>
+
+
+
+                <div class="col-xl-6 col-lg-6 col-md-12 mb-5">
+                    <div class="row">
+
+
+                        <div class="col-xl-6 col-lg-6 col-md-12 mb-2">
+                            <div class="sec-small-img-div position-relative overflow-hidden">
+                                <div class="bg-purple"></div>
+                                <img src="images/room_9.jpg" alt="room_1">
+                                <div class="hotel-name">The Paradise</div>
+                            </div>
+                        </div>
+
+
+
+
+
+
+                        <div class="col-xl-6 col-lg-6 col-md-12 mb-5">
+                            <div class="sec-small-div ">
+                                <p><span class="gold-type">$350 </span> Per night</p>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae neque itaque sed
+                                    eius vero voluptates obcaecati commodi sunt eligendi tenetur.</p>
+                                <a href="userInfo.html">BOOK NOW <i class="fas fa-long-arrow-alt-right"></i></a>
+                            </div>
+                        </div>
+
+
+
+
+
+
+
+
+
+                    </div>
+                </div>
+
+
+
+                <div class="col-xl-6 col-lg-6 col-md-12 mb-5">
+                    <div class="row">
+
+
+                        <div class="col-xl-6 col-lg-6 col-md-12 mb-2">
+                            <div class="sec-small-img-div position-relative overflow-hidden">
+                                <div class="bg-purple"></div>
+                                <img src="images/room_10.jpg" alt="room_1">
+                                <div class="hotel-name">The Paradise</div>
+                            </div>
+                        </div>
+
+
+
+
+
+
+                        <div class="col-xl-6 col-lg-6 col-md-12 mb-5">
+                            <div class="sec-small-div ">
+                                <p><span class="gold-type">$350 </span> Per night</p>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae neque itaque sed
+                                    eius vero voluptates obcaecati commodi sunt eligendi tenetur.</p>
+                                <a href="userInfo.html">BOOK NOW <i class="fas fa-long-arrow-alt-right"></i></a>
+                            </div>
+                        </div>
+
+
+
+
+
+
+
+
+
+                    </div>
+                </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+
+
+    <!------------------------------- contact ----------------------------------------->
+
+
+
+    <section id="contact" class="py-5 wow slideInLeft" data-wow-duration="2s" data-wow-offset="60">
+
+        <div class="container-fluid width-75">
+
+            <div class="row">
+
+                <div class="col-12 d-flex justify-content-center align-items-center p-5">
+                    <div class="text-center explore">
+                        <h2>CONTACT</h2>
+                        <p>Get in touch with us</p>
+                    </div>
+                </div>
+
+
+
+
+
+
+
+                <div class="col-xl-6 col-lg-6 col-md-12 mb-4">
+                    <div class="contact-traveler">
+                        <img src="images/traveler.png" alt="traveler">
+                    </div>
+                </div>
+
+
+
+
+
+                <div class="col-xl-6 col-lg-6 col-md-12 contact-bg mb-4">
+                    <div class="contact-div ">
+                        <div class="m-3">
+                            <input type="text" class="my-form-1" name="Name" placeholder="Name">
+                            <input type="email" class="my-form-1" name="email" placeholder="E-mail">
+                        </div>
+                        <div class="m-3">
+                            <input type="text" class=" my-form-2" name="Subject" placeholder="subject">
+                        </div>
+                        <div class="m-3">
+                            <textarea name="message" class=" my-form-2" placeholder="Message" cols="30"
+                                rows="6"></textarea>
+                        </div>
+
+                        <button type="button" class="contact-btn mx-5">SEND MESSAGE ...</button>
+
+                    </div>
+                </div>
+
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+
+    <!------------------------------- end ----------------------------------------->
+
+
+    <section class="end ">
+
+        <div class="container-fluid  my-75">
+            <div class="row">
+
+
+
+                <div class="col-xl-6 col-lg-6 col-md-6 col-sm-6">
+                    <div class="col-12">
+                        <div>
+                            <img src="images/logo.png" alt="logo">
+                        </div>
+                    </div>
+
+                    <div class="col-12">
+                        <div>
+                            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. </p>
+                        </div>
+                    </div>
+                </div>
+
+
+
+                <div class="col-xl-6 col-lg-6 col-md-6 col-sm-6">
+                    <div class="col-12">
+                        <div>
+                            <h4>FOLLOW US</h4>
+                        </div>
+                    </div>
+
+                    <div class="col-12">
+                        <div class="social">
+                            <i class="fab fa-twitter"></i>
+                            <i class="fab fa-facebook-square"></i>
+                            <i class="fab fa-instagram"></i>
+                            <i class="fab fa-pinterest"></i>
+                            <i class="fab fa-google-plus-square"></i>
+                        </div>
+                    </div>
+                </div>
+
+
+
+
+
+
+
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+
+
+
+
+
+
+
+
+    <script src="js/jquery-3.5.1.min.js"></script>
+    <script src="js/wow.min.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/index.js"></script>
+</body>
+
+</html>

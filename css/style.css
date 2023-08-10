@@ -1,0 +1,749 @@
+.width-75 {
+    width: 75%;
+}
+
+/******************************************home ************************************************/
+
+
+/**loding screen**/
+.loader, .loader:before, .loader:after {
+    background: #ffffff;
+    -webkit-animation: load1 1s infinite ease-in-out;
+    animation: load1 1s infinite ease-in-out;
+    width: 1em;
+    height: 4em;
+}
+
+.loader {
+    color: #ffffff;
+    text-indent: -9999em;
+    margin: 88px auto;
+    position: relative;
+    font-size: 40px;
+    -webkit-transform: translateZ(0);
+    -ms-transform: translateZ(0);
+    transform: translateZ(0);
+    -webkit-animation-delay: -0.16s;
+    animation-delay: -0.16s;
+}
+
+.loader:before, .loader:after {
+    position: absolute;
+    top: 0;
+    content: '';
+}
+
+.loader:before {
+    left: -1.5em;
+    -webkit-animation-delay: -0.32s;
+    animation-delay: -0.32s;
+}
+
+.loader:after {
+    left: 1.5em;
+}
+
+@-webkit-keyframes load1 {
+    0%, 80%, 100% {
+        box-shadow: 0 0;
+        height: 4em;
+    }
+
+    40% {
+        box-shadow: 0 -2em;
+        height: 5em;
+    }
+}
+
+@keyframes load1 {
+    0%, 80%, 100% {
+        box-shadow: 0 0;
+        height: 4em;
+    }
+
+    40% {
+        box-shadow: 0 -2em;
+        height: 5em;
+    }
+}
+
+.loding {
+    height: 100vh;
+    width: 100%;
+    background-color: #350a4f;
+    z-index: 999999999999999;
+    display: flex;
+    position: fixed;
+    left: 0;
+    top: 0;
+    align-items: center;
+    justify-content: center;
+}
+
+body {
+    overflow: hidden;
+    font-family: 'Open Sans', sans-serif;
+
+}
+
+
+
+/* nav */
+
+
+.my-width {
+    width: 50%;
+}
+
+.nav-bg {
+    background-color: rgba(53, 10, 79, 0.7);
+}
+
+.nav-link {
+    color: white !important;
+    font-size: 13px;
+    font-weight: 600;
+    margin: 5px 10px;
+
+}
+
+.navbar-brand {
+    width: 150px;
+}
+
+
+
+/**sec nav **/
+
+.my-nav {
+    width: 300px;
+    z-index: 999;
+    position: fixed;
+    top: 0;
+    left: -240px;
+    height: 100vh;
+}
+
+.black-div {
+    height: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.black-div ul {
+    list-style: none;
+}
+
+.black-div ul li {
+
+    padding-top: 500px;
+}
+
+.black-div ul li a {
+
+    color: white;
+    font-weight: 600;
+    font-size: 14px;
+    text-decoration: none;
+
+}
+
+.red-hover {
+    transition: all 0.5s;
+
+}
+
+.red-hover:hover {
+    color: red;
+}
+
+.black-div {
+    width: 240px;
+    height: 100%;
+    background-color: black;
+
+}
+
+
+.black-div-part2 {
+
+    padding: 15px;
+}
+
+.social {
+    margin-left: 20px;
+    width: 40%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.social i {
+    color: white;
+    cursor: pointer;
+}
+
+.social-hov {
+    transition: all 0.5s;
+}
+
+.social-hov:hover {
+    color: red;
+}
+
+.black-div-part2 p {
+    color: white;
+    font-size: 11px;
+    padding: 10px;
+    font-weight: 400;
+}
+
+
+.white-div {
+    width: 60px;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    right: 0;
+    background-color: transparent;
+
+}
+
+.my-icon2 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    cursor: pointer;
+    font-size: 20px;
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+    background-color: black;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.style-header {
+    width: 100%;
+    height: 100%;
+    background-color: rgba(53, 10, 79, 0.5);
+
+}
+
+.style-header .container {
+    height: 100%;
+}
+
+.style-header h1 {
+    font-size: 90px;
+    font-weight: 800;
+    color: white;
+}
+
+.style-header h4 {
+    font-size: 35px;
+    font-family: 'Courgette';
+    color: white;
+    margin: 0 0 15px 0px;
+}
+
+.my-btn {
+    border: none;
+    transition: all 0.5s;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
+    font-size: 11px;
+    width: auto;
+    padding: 5px 20px;
+    border-radius: 25px;
+    color: white;
+    background-image: linear-gradient(to right, #fa9e2c, #8f50fb);
+
+}
+
+
+.my-btn:hover {
+    background-image: linear-gradient(to right, #8f50fb, #fa9e2c);
+}
+
+
+#home {
+    background-image: url(../images/hero_background.jpg);
+    background-size: cover;
+    overflow: hidden;
+    height: 100vh;
+}
+
+/***************************About**************************************/
+
+
+.about-style {
+    background-image: linear-gradient(to right, #fa9e2c, #8f50fb);
+    padding: 15px 0px;
+}
+
+.form-control {
+    border-radius: 0;
+}
+
+.my-label {
+    color: white;
+    font-size: 13px;
+    font-weight: 600;
+}
+
+.my-sec-btn {
+    border: none;
+}
+
+.about-style button {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
+    font-size: 10px;
+    width: auto;
+    padding: 10px 25px;
+    border-radius: 25px;
+    color: white;
+    background-color: #2d2c2c;
+}
+
+
+
+/***************************explore**************************************/
+
+
+
+.explore h2 {
+    font-size: 40px;
+    font-weight: 800;
+    padding: 5px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.explore p {
+    color: gray;
+    font-weight: 400;
+    font-family: 'Courgette';
+}
+
+.small-div {
+    position: relative;
+    overflow: hidden;
+    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+}
+
+.small-div img {
+    width: 100%;
+    transition: all 1s;
+
+
+}
+
+.bg-purple {
+    background-color: rgba(53, 10, 79, .5);
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.small-div h4 {
+    color: white;
+    font-size: 25px;
+    font-weight: 600;
+    padding: 20px 15px 10px 15px;
+    margin: 0;
+}
+
+.small-div p {
+    color: white;
+    font-weight: 400;
+    font-size: 12px;
+    margin: 0;
+    padding: 5px 15px;
+}
+
+.small-div button {
+
+    padding: 5px 15px;
+    font-size: 11px;
+
+}
+
+.stars {
+    padding: 5px 15px;
+}
+
+.stars i {
+    font-size: 11px;
+    padding: 2px;
+    color: goldenrod;
+    cursor: pointer;
+
+}
+
+.small-div:hover img {
+    transform: scale(1.5, 1.5);
+}
+
+
+
+/*******************************pradise**************************/
+
+.my-w-50 {
+
+    width: 50%;
+}
+
+.pradise {
+    background-attachment: fixed;
+    background-image: url(../images/the_paradise_bg.jpg);
+    background-size: cover;
+    height: 300px;
+}
+
+.pradise-style {
+    width: 100%;
+    height: 100%;
+    background-image: linear-gradient(to right, rgba(250, 158, 44, 0.7), rgb(143, 80, 251, 0.7));
+}
+
+.pradise h4 {
+    padding: 15px 0 0 0;
+    font-weight: 600;
+}
+
+.pradise p {
+    padding-top: 5px;
+    font-size: 11px;
+    color: gray;
+}
+
+.sale {
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding: 5px;
+    background-color: goldenrod;
+    font-size: 11px;
+    font-weight: 600;
+    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+}
+
+
+
+
+/*******************************news**************************/
+
+
+#news {
+    background-color: gainsboro;
+}
+
+.sec-small-img-div img {
+    width: 100%;
+}
+
+.hotel-name {
+    color: white;
+    background-color: goldenrod;
+    position: absolute;
+    bottom: 15px;
+    left: 0;
+    padding: 5px 15px;
+    font-weight: 600;
+}
+
+.gold-type {
+    font-size: 25px;
+    font-weight: 600;
+    color: goldenrod;
+}
+
+.sec-small-div p {
+    font-size: 0.5rem;
+    color: gray;
+    padding: 5px 2px;
+    margin: 0;
+}
+
+.sec-small-div a {
+    font-weight: 600;
+    font-size: 13px;
+    color: black;
+    padding: 2px;
+    margin: 0;
+    text-decoration: none;
+}
+
+
+
+
+/***************************contact*****************************/
+
+.contact-traveler img {
+    width: 80%;
+
+}
+
+.contact-div {
+    padding: 10px;
+}
+
+.my-form-1 {
+    margin: 20px 0;
+    width: 49%;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom: 1px solid white;
+    background-color: transparent;
+}
+
+.my-form-1::placeholder {
+    /* Chrome, Firefox, Opera, Safari 10.1+ */
+    color: white;
+    opacity: 1;
+    /* Firefox */
+}
+
+.my-form-1:-ms-input-placeholder {
+    /* Internet Explorer 10-11 */
+    color: white;
+}
+
+.my-form-1::-ms-input-placeholder {
+    /* Microsoft Edge */
+    color: white;
+}
+
+.my-form-2 {
+    margin: 20px 0;
+    width: 100%;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom: 1px solid white;
+    background-color: transparent;
+}
+
+.my-form-2::placeholder {
+    /* Chrome, Firefox, Opera, Safari 10.1+ */
+    color: white;
+    opacity: 1;
+    /* Firefox */
+}
+
+.my-form-2:-ms-input-placeholder {
+    /* Internet Explorer 10-11 */
+    color: white;
+}
+
+.my-form-2::-ms-input-placeholder {
+    /* Microsoft Edge */
+    color: white;
+}
+
+.contact-bg {
+    background-image: linear-gradient(to right, #fa9e2c, #8f50fb);
+}
+
+.contact-btn {
+    border: none;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
+    font-size: 13px;
+    width: auto;
+    padding: 10px 25px;
+    border-radius: 25px;
+    color: white;
+    background-color: #2d2c2c;
+
+}
+
+
+/********************end**************************************/
+
+
+.end {
+    padding: 25px 0;
+    background-color: #350a4f;
+}
+
+.end img {
+    width: 130px;
+    padding: 10px 0;
+}
+
+.end p {
+    font-size: 11px;
+    color: white;
+    font-weight: 400;
+    padding: 5px 0;
+
+}
+
+.end h4 {
+    color: white;
+    font-size: 13px;
+    font-weight: 600;
+    padding: 10px 0;
+}
+
+.end .social {
+    padding: 10px;
+
+}
+
+.end .social i {
+    padding: 8px;
+    color: white;
+    border: 1px solid #fa9e2c;
+    border-radius: 50%;
+    cursor: pointer;
+    margin: 1px;
+}
+
+.my-75 {
+    width: 75%;
+}
+
+
+
+
+/***********************************media***************************************/
+
+
+
+
+
+
+
+
+
+
+
+
+@media all and (max-width:991px) {
+
+
+    .my-width {
+        width: 100%;
+    }
+
+    .width-75 {
+        width: 95%;
+    }
+
+    .my-75 {
+        width: 100%;
+    }
+
+
+
+    .collapse {
+        margin-top: 10vh;
+        height: 100vh;
+        padding: 25% 0;
+    }
+
+
+
+
+
+}
+
+@media all and (max-width:500px) {
+
+
+
+    .black-div ul li a {
+        font-size: 14px;
+
+    }
+
+    .black-div-part2 p {
+        font-size: 11px;
+    }
+
+    .my-icon2 {
+        font-size: 20px;
+        padding: 10px;
+    }
+
+
+
+
+
+
+
+
+
+    .style-header h1 {
+        font-size: 50px;
+
+    }
+
+
+    .style-header h4 {
+        font-size: 20px;
+
+    }
+
+    .navbar-brand {
+        width: 120px;
+    }
+
+
+
+    .small-div h4 {
+        font-size: 20px;
+        padding: 10px 10px 10px 10px;
+    }
+
+    .small-div p {
+        font-size: 12px;
+        padding: 5px 10px;
+    }
+
+    .small-div button {
+
+        padding: 5px 15px;
+        margin: 3px 0;
+        font-size: 11px;
+    }
+
+    .my-w-50 {
+
+        width: 80%;
+    }
+
+
+    .my-form-1 {
+        width: 48%;
+    }
+
+
+    .contact-btn {
+        font-size: 10px;
+        padding: 7px 15px;
+
+
+    }
+
+
+}

@@ -1,0 +1,169 @@
+
+.social {
+    padding: 10px;
+}
+
+.social i {
+    padding: 8px;
+    color: white;
+    border: 1px solid white;
+    border-radius: 50%;
+    cursor: pointer;
+    margin: 1px;
+    transition: all 0.5s;
+}
+.social i:hover{
+    border: 1px solid #007bff;
+    color: #007bff;
+}
+.login{
+    min-height: 100vh;
+    background-image: url(../images/Capture.PNG);
+    background-size: cover;
+    
+}
+.style-login{
+    padding: 15px 30px 60px 30px;
+    border-radius: 10px;
+    background-image: linear-gradient(to right,  rgba(250, 158, 44, 1), rgb(143, 80, 251, 1));
+    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+
+}
+.small-div img{
+    width: 75%;
+    padding: 15px 0;
+}
+input{
+    margin: 10px;
+}
+button{
+    margin: 5px;
+}
+.Forgot{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background-color: white;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    padding: 15px 0;
+    border-bottom-left-radius: 10px ;
+    border-bottom-right-radius: 10px ;
+}
+
+.Forgot a{
+    color: gray;
+}
+
+
+.nav-item a{
+    color: white;
+    font-weight: 600;
+}
+
+.form-control{
+    width: 93%;
+}
+
+.back-arrow {
+    position: absolute;
+    top: 15px;
+    left: 15px;
+}
+.back-arrow i{
+    padding: 15px;
+    border: 1px solid #007bff;
+    color: #007bff;
+    border-radius: 50%;
+    transition: all 0.5s;
+    font-size: 20px;
+}
+.back-arrow i:hover{
+    color: white;
+    background-color: #007bff;
+}
+
+
+
+      /********************end**************************************/
+
+
+      .end{
+        padding: 25px 0;
+        background-color: #350a4f;
+    }
+    .end img{
+        width: 130px;
+        padding: 10px 0;
+    }
+    .end p{
+        font-size: 11px;
+        color: white;
+        font-weight: 400;
+        padding: 5px 0;
+
+    }
+    .end h4{
+        color: white;
+        font-size: 13px;
+        font-weight: 600;
+        padding: 10px 0;
+    }
+
+    .end .social {
+      padding: 10px;
+
+    }
+    .end .social i{
+      padding: 8px;
+      color: white;
+      border: 1px solid  #fa9e2c;
+      border-radius: 50%;
+      cursor: pointer;
+      margin: 1px;
+    }
+    .my-75{
+        width: 75%;
+    }
+
+
+
+
+@media all and (max-width:500px){
+
+    .login{
+        padding: 50px 0;
+        min-height: 120vh;
+    }
+    .my-75{
+        width: 100%;
+    }
+
+}
+@media all and (max-width:330px){
+
+
+    .style-login{
+        width: 90%;
+    }
+
+    .small-div img{
+        width: 50%;
+    }
+    .Forgot a{
+        font-size: 8px;
+        font-weight: 400;
+    }
+
+    .social{
+        padding: 3px;
+    }
+
+    .social i{
+        font-size: 9px;
+        padding: 5px;
+    }
+
+
+}
